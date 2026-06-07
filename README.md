@@ -38,45 +38,41 @@ Ao executar o `PCSX2_CoverSync.exe` pela primeira vez, você pode ver uma janela
 
 ---
 
-## 🛠️ Requisitos e Execução (Código Fonte)
+## 🛠️ Instalação e Execução
 
-Se você preferir rodar a aplicação diretamente a partir do código fonte, certifique-se de ter o [Python 3](https://www.python.org/) instalado na sua máquina (geralmente usuários de Windows precisam baixar o instalador oficial).
-
-O projeto necessita apenas da biblioteca `Pillow` para o processamento nativo das imagens:
-
-```bash
-# Instale a dependência de imagem
-pip install Pillow
-
-# Execute a aplicação
-python3 PCSX2_CoverSync.py
+### 🐧 No Linux (Recomendado)
+O projeto inclui um script de instalação automática que configura as dependências e cria o atalho no menu do seu sistema:
 ```
+chmod +x install.sh
+./install.sh
+```
+
+### 🪟 Instalação Manual (Linux / Windows)
+1. **Instale as dependências:**
+   ```
+   pip install -r requirements.txt
+   ```
+2. **Execute o programa:**
+   * **Linux:** `python3 PCSX2_CoverSync.py`
+   * **Windows:** `python PCSX2_CoverSync.py`
 
 ---
 
-## 📦 Compilando o Executável
+### 📦 Compilando o Executável
 
-Você pode gerar um binário único (`--onefile`) para o seu sistema usando o PyInstaller. Como a logo já faz parte do DNA do código, a compilação é limpa.
-
-### 🐧 Compilando no Linux
+Você pode gerar um binário único (`--onefile`) para o seu sistema. Certifique-se de instalar o `pyinstaller` antes:
 
 ```bash
-pip install pyinstaller Pillow
+pip install pyinstaller
+```
+
+### 🐧 Compilando no Linux
+```bash
 pyinstaller --onefile --noconsole PCSX2_CoverSync.py
 ```
 O arquivo gerado estará na pasta `dist/` com o nome `PCSX2_CoverSync`.
 
 ### 🪟 Compilando no Windows (.exe)
-
-Basta rodar o comando abaixo para gerar o executável:
-
-```cmd
-pip install pyinstaller Pillow
-pyinstaller --onefile --noconsole --icon=logo.ico PCSX2_CoverSync.py
-```
-
-💡 **Nota sobre erros no Windows:** Caso o comando acima dê erro dizendo que o 'pyinstaller' não foi encontrado, significa que as variáveis de ambiente do seu sistema não atualizaram. Use este comando alternativo que força o Python a chamar o módulo diretamente:
-
 ```cmd
 python -m PyInstaller --onefile --noconsole --icon=logo.ico PCSX2_CoverSync.py
 ```
@@ -84,7 +80,7 @@ O arquivo `PCSX2_CoverSync.exe` gerado estará disponível na pasta `dist\`.
 
 ---
 
-## 🐧 Instalação e Integração no Linux (.desktop)
+## 🐧 Instalação e Integração no Linux - Forma manual (.desktop)
 
 No Linux, executáveis nativos não embutem ícones no gerenciador de arquivos. Para que o programa apareça lindamente no seu Menu Iniciar com a logo, siga estes passos:
 
