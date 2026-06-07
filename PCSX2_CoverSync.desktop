@@ -1,0 +1,11 @@
+```ini
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PCSX2 CoverSync
+Comment=Sincronize as capas e inicie sua biblioteca de jogos de PS2.
+Exec=/home/derikc/Documentos/PCSX2_CoverSync/pcsx2_launcher
+Icon=/home/derikc/Documentos/PCSX2_CoverSync/logo.png
+Terminal=false
+Categories=Game;Emulator;Utility;
+```
