@@ -19,7 +19,7 @@ Cansado de bibliotecas de jogos desorganizadas ou capas faltando? O CoverSync re
 
 Caso não queira compilar o programa por conta própria, você pode baixar os arquivos executáveis já compilados e prontos para uso (tanto para Linux quanto para Windows) diretamente na página oficial de lançamentos:
 
-👉 **[Baixar PCSX2 CoverSync v1.0.0 Nativamente Aqui](https://github.com/derikcalixto/PCSX2_CoverSync/releases/tag/v1.0.0)**
+👉 **[Baixar PCSX2 CoverSync Atualizado Aqui](https://github.com/derikcalixto/PCSX2_CoverSync/releases)**
 
 ---
 
