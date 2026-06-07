@@ -1,12 +1,17 @@
-# PCSX2_CoverSync: Sincronização Automática de Capas para PCSX2 🎮
+# PCSX2 CoverSync: Sincronização Automática de Capas para PCSX2 🎮
 
-Um utilitário multiplataforma (Linux / Windows) de código aberto, elegante e automatizado desenvolvido especificamente para o emulador oficial [PCSX2](https://pcsx2.net/). Ele escaneia sua biblioteca de jogos de PS2, baixa automaticamente as capas faltantes (em formato 2D ou 3D) de servidores públicos e inicia o emulador de forma totalmente transparente.
+O PCSX2 CoverSync é um utilitário de código aberto, elegante e totalmente automatizado, desenvolvido para elevar sua experiência no emulador [PCSX2](https://pcsx2.net/).
+
+Cansado de bibliotecas de jogos desorganizadas ou capas faltando? O CoverSync resolve isso para você! Ele escaneia sua biblioteca de PS2, identifica os jogos e baixa automaticamente as capas faltantes oferecendo suporte tanto para o formato 2D clássico quanto para o 3D moderno.
 
 ## 📌 Funcionalidades
 
-* **Sincronização Automática:** Detecta os jogos (ISOs, CHDs, CSO, etc.) através de suas Serials e baixa a arte de capa correspondente.
+* **Multiplataforma:** Compatibilidade total com Linux e Windows.
+* **Automação Inteligente:** Detecta os jogos (ISOs, CHDs, CSO, etc.) através de suas Serials e baixa a arte de capa de servidores públicos em formato 2D ou 3D.
 * **Auto-Detecção de Ambiente:** Localiza automaticamente a instalação do PCSX2 (Flatpak, AppImage, QT) e a pasta das capas em distribuições Linux e no Windows.
+* **Integração Transparente:** Inicie o PCSX2 diretamente pelo utilitário, com sua biblioteca sempre atualizada.
 * **Interface Moderna:** Construída em Tkinter com design inspirado na paleta Libadwaita/GNOME.
+* **Código Aberto:** Desenvolvido com transparência e foco em performance.
 
 ---
 
